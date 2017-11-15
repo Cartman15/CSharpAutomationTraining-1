@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpAutoTraining.Curs1.Test</StartupObject>
+    <StartupObject>CSharpAutoTraining.Curs2.TestCurs2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Curs1\Browser.cs" />
     <Compile Include="Curs1\Test.cs" />
+    <Compile Include="Curs2\BrowserCurs2.cs" />
+    <Compile Include="Curs2\Chrome.cs" />
+    <Compile Include="Curs2\Firefox.cs" />
+    <Compile Include="Curs2\InternetExplorer.cs" />
+    <Compile Include="Curs2\TestCurs2.cs" />
+    <Compile Include="MyClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
